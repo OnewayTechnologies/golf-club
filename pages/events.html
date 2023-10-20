@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/events.css">
+</head>
+
+<body>
+    <!-- ======================= Navbar ============================ -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top white-bg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="/assets/img/Logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link black-text" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link black-text" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link black-text current" href="events.html">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link black-text" href="membership.html">Membership</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link black-text" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link black-text" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- ========================= Events ========================= -->
+    <section class="main mt-5">
+        <div class="left">
+            <div class="content">
+                <h2>Match Calendar</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias quidem, laudantium at soluta quia
+                    enim blanditiis eveniet voluptate, beatae earum provident iste possimus tempore quas, nesciunt eum
+                    repellendus fugit molestiae?</p>
+            </div>
+        </div>
+        <div class="calendar" id="calendar">
+            <h2>Upcoming Match</h2>
+        </div>
+    </section>
+    <section class="training-main mt-5 mb-5">
+        <div class="calendar" id="training-calendar">
+            <h2>Time Schedule</h2>
+        </div>
+        <div class="left">
+            <div class="content">
+                <h2>Events Time</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias quidem, laudantium at soluta quia
+                    enim blanditiis eveniet voluptate, beatae earum provident iste possimus tempore quas, nesciunt eum
+                    repellendus fugit molestiae?</p>
+            </div>
+        </div>
+    </section>
+    <!-- <section class="race-stats">
+        <main class="event-table">
+            <section class="table-header">
+                <h1>Time Stats</h1>
+            </section>
+            <section class="table-body">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Date</th>
+                            <th>Name</th>
+                            <th>Match</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>09:67:09</td>
+                            <td>17/02/2022</td>
+                            <td><img src="/assets/img/pic-13.jpg" alt="">Tshegofatso Ledimo</td>
+                            <td>Valentines Day Match</td>
+                        </tr>
+                        <tr>
+                            <td>09:67:09</td>
+                            <td>17/02/2022</td>
+                            <td><img src="/assets/img/pic-13.jpg" alt="">Phumudzo Divhambele</td>
+                            <td>Easter Day Match</td>
+                        </tr>
+                        <tr>
+                            <td>09:67:09</td>
+                            <td>17/02/2022</td>
+                            <td><img src="/assets/img/pic-13.jpg" alt="">Kamogelo
+                                Maepa</td>
+                            <td>Womens Day Match</td>
+                        </tr>
+                        <tr>
+                            <td>09:67:09</td>
+                            <td>17/02/2022</td>
+                            <td><img src="/assets/img/pic-13.jpg" alt="">Sibabalwe
+                                Martin</td>
+                            <td>Womens Day Match</td>
+                        </tr>
+                        <tr>
+                            <td>09:67:09</td>
+                            <td>17/02/2022</td>
+                            <td><img src="/assets/img/pic-13.jpg" alt="">Quinton D'Hotman De'Velliers</td>
+                            <td>Womens Day Match</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </section> -->
+
+    <!--======================== October Modal=======================-->
+    <div class="modal fade" id="octoberModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog ">
+            <div class="modal-content bg-success">
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold white-text" id="exampleModalLabel">Event Time</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="card mb-3" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">GOLF CLINICS</h5>
+                            <p class="card-text">08H30</p>
+                            <!-- <a href="#" class="btn btn-success">Click To Book</a> -->
+                        </div>
+                    </div>
+                    <div class="card mb-3" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">REGISTRATION</h5>
+                            <p class="card-text">08H30</p>
+                            <!-- <a href="#" class="btn btn-success">Click To Book</a> -->
+                        </div>
+                    </div>
+                    <div class="card mb-3" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">SHOTGUN TEE OFF</h5>
+                            <p class="card-text">08H30</p>
+                            <!-- <a href="#" class="btn btn-success">Click To Book</a> -->
+                        </div>
+                    </div>
+                    <div class="card mb-3" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">PRIZE GIVING DINNER</h5>
+                            <p class="card-text">08H30</p>
+                            <!-- <a href="#" class="btn btn-success">Click To Book</a> -->
+                        </div>
+                    </div>
+                    <hr class="white-bg">
+                    <div class="card mb-3" style="width: 100%;">
+                        <div class="card-body">
+                            <!-- <h5 class="card-title">PRIZE GIVING DINNER</h5> -->
+                            <p class="card-text">GREEN FEES: <span class="ps-5 fw-bold">R300.00</span></p>
+                            <p class="card-text">GOLF CARTS: <span class="ps-5 fw-bold">R300.00</span></p>
+                            <p class="card-text">FOUR BALL: <span class="ps-5 fw-bold">R1200.00</span></p>
+                            <p class="card-text">HOLE SPONSOR: <span class="ps-5 fw-bold">R2000.00</span></p>
+                            <!-- <a href="#" class="btn btn-success">Click To Book</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--======================== September Modal=======================-->
+    <div class="modal fade" id="septemberModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog ">
+            <div class="modal-content bg-success">
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold white-text" id="exampleModalLabel">Event Time</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="card mb-3" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">The Event Has Expired</h5>
+                            <a href="#" class="btn btn-success">Click To Book</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--======================== October Modal=======================-->
+    <div class="modal fade" id="januaryModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog ">
+            <div class="modal-content bg-success">
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold white-text" id="exampleModalLabel">Event Time</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="card mb-3" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">Comming Soon</h5>
+                            <p class="card-text">Please make sure you stay up to date</p>
+                            <a href="#" class="btn btn-success">Click To register</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="news black-bg text-light position-relative p-xl-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-11 m-auto">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <h4 class="pb-2 blue-text pt-3">LINKS</h4>
+                            <p class="mb-1">
+                                <a href="contact.html" class="text-white" target="_blank">First Link</a>
+                            </p>
+                            <p class="mb-1">
+                                <a href="https://centralgautengathletics.co.za/" class="text-white"
+                                    target="_blank">Second Link</a>
+                            </p>
+                            <p class="mb-1">
+                                <a href="https://athleticssa.org.za/" class="text-white" target="_blank">Third
+                                    Link</a>
+                            </p>
+                        </div>
+                        <div class="col-lg-4">
+                            <h5 class="pb-2 blue-text pt-3">CONTACT INFO</h5>
+                            <p class="mb-1 light-gray-text">RSA 083 652 5552. | <span
+                                    class="light-blue-text">play@phezulugolfclub.co.za</span>
+                            </p>
+                        </div>
+                        <div class="col-lg-4 text-center">
+                            <h5 class="pb-2 blue-text pt-3">SOCIAL MEDIA</h5>
+                            <div class="justify-content-between">
+                                <span><i class="bi bi-facebook social"></i></span>
+                                <span><i class="bi bi-instagram social"></i></span>
+                                <span><i class="bi bi-twitter social"></i></span>
+                                <span><i class="bi bi-linkedin social"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="text-center">Copyright &copy;2023 Phezulu Golf Club | All Rights Reserved</a>
+            </p>
+            <a href="contact.html" class="position-absolute bottom-0 end-0 p-5 light-blue-text">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+        </div>
+    </footer>
+    <script src="/assets/js/event.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
